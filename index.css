@@ -1,0 +1,249 @@
+
+/* Global selector
+------------------------------------ */
+body{
+color: #252424;
+}
+
+img{
+    width: 300px;
+}
+
+a{
+    color: #0e0054;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* Profile
+------------------------------------ */
+
+header{
+    background-color: #0e0054;
+    color: #f7f7f7;
+    padding: 10px 150px;
+    margin: 0 auto;
+    width: 600px;
+    align-items: center;
+    /* display: inline-block; */
+}
+.header1{
+    /* margin: 0px auto; */
+    background-color: #0e0054;
+    margin-bottom: 0;
+
+}
+.header1 h1{
+font-style: oblique;
+margin-top: 0;
+font-size: 60px;
+}
+.header1 h2{
+    font-style: italic;
+}
+.header1 div{
+    display: inline-block;
+}
+.header1 img{
+    border-radius: 100%;
+    padding: 10px;
+    margin: 0;
+    opacity: 80%;
+    width: 200px;
+    height: 200px;
+}
+
+/*Projects
+------------------------------------ */
+.project{
+    background-color: #e8f0ee;
+    opacity: 80%;
+}
+.project a{
+ color: rgb(243, 228, 18);
+}
+.project .btn{
+    color: #f7fff7;
+    background-color: #2f3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    
+}
+.project .btn:hover{
+    background:rgba(47,48,97,80%) ;
+}
+.project{
+    padding: 0 auto;
+    width: 850px;
+    margin: 0 auto;
+    border-radius: 5px;
+
+    /* border: 1px solid black; */
+}
+.project-space{
+    /* background-color: #b1d6ce; */
+    background: url(images/pexels-hillaryfox-1595385.jpg);
+    margin-top: 0px;
+    border: 1px solid #b1d6ce;
+    /* border-style: none; */
+    background-size:cover;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+.project-space h2,.project h3{
+    font-style: italic;
+}
+.project-block{
+    display: inline-block;
+    /* border: 1px solid black; */
+    width: 47%;
+    padding: 10px;
+  
+    
+}
+.project-block img{
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+    /* border-bottom-style: dashed; */
+    /* padding-bottom: 25px; */
+    border-bottom: 5px solid rgba(14, 12, 12, 80%);
+    border-left: 5px solid rgba(2, 1, 1,80%);
+
+}
+.space{
+ margin-top: 0;
+ padding-bottom: 10px;
+ /* color: red; */
+ margin-left: -4px;
+
+
+ /* border-bottom-style: dashed; */
+ padding-bottom: 25px;
+
+ /* margin-bottom: 0px; */
+}
+
+.project-div{
+    border-bottom: 2px solid black;
+    border-bottom-style: dashed;
+    /* opacity: 100%; */
+}
+
+/* Work experience
+------------------------------------ */
+
+.work-experience-space{
+    background:url(images/pexels-thisisengineering-3861958.jpg);
+    background-size: cover;
+    padding:20px;
+  
+}
+.work-experience{
+    background-color: #fafafa;
+    border: 1px solid #f2fafe;
+    padding: 0px auto;
+    width: 850px;
+    margin: 0px auto;
+    opacity: 70%;
+    border-radius: 5px;
+}
+.work-experience h2,.work-experience h3{
+    font-style: italic;
+}
+
+.work-experience div{
+    /* border: 1px solid black; */
+    width: 48%;
+    display: inline-block;
+
+}
+.work-experience section{
+    border-bottom-style: dashed;
+}
+/*Education
+------------------------------------ */
+.education-space{
+    background: url(images/joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+    width: 100%;
+    height: auto;
+    border: rgb(11, 11, 7);
+    margin-top: 0;
+}
+.education{
+    border: 1px solid rgb(255, 196, 0);
+    width: 850px;
+    padding: 0 auto;
+    margin: 0 auto;
+    height: 100%;
+}
+.education h2{
+    font-style: oblique;
+}
+
+
+/* contact info
+------------------------------------ */
+
+footer{
+    background-color: #343434;
+    color: #ffffff;
+    border: 1px solid #343434;
+    align-items: center;
+    height: 200px;
+
+}
+footer img{
+    width: 15px;
+}
+
+footer h2{
+    text-align: center;
+    font-style: italic;
+}
+
+footer ul{
+    width: 850px;
+    margin: 0 auto;
+    align-items: center;
+   
+}
+footer li{
+    display: inline-block;
+    padding: 0 50px;
+
+}
+footer li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* p{
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 10%;
+    margin: 0;
+    text-align: center;
+}
+span{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: green;
+    margin: 0px;
+    display: inline-block;
+}
+
+     */
+
+
+
+/* h1{
+    background-color: yellowgreen;
+    padding: 10% 20% 10% 10%;
+    margin: auto;
+    border: 1px solid red;
+}
+ */
